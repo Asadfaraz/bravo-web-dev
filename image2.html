@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image 2</title>
+  </head>
+  <body>
+    <h1>Our Image</h1>
+    <img
+      src="https://www.technocrazed.com/wp-content/uploads/2015/12/beautiful-wallpaper-download-14.jpg"
+      alt="Stone Image"
+      style="width: 500px"
+    />
+
+    <p>You can see the above image</p>
+
+    <h2>--------------------------------------------</h2>
+    <!-- Picture Element -->
+    <h1>Picture Element</h1>
+
+    <picture>
+      <source srcset="images/stones.jpg" media="(min-width: 720px)" />
+      <source srcset="images/horse.jpg" media="(min-width: 500px)" />
+      <source srcset="images/sad.png" media="(min-width: 400px)" />
+
+      <img src="images/moon.jpg" alt="Moon Image" />
+    </picture>
+  </body>
+</html>
