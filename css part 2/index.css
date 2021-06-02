@@ -14,6 +14,8 @@ h1 {
   padding-left: 0;
 
   width: 500px;
+
+  border-top-left-radius: 20px;
 }
 
 .sameColor {
@@ -25,10 +27,19 @@ h1 {
 }
 
 h3 {
-  /* border: 1px solid yellow; */
-  border-width: 1px;
+  border: 1px solid yellow;
+  /* border-width: 1px;
   border-style: solid;
-  border-color: red;
+  border-color: yellow; */
+
+  border-radius: 10px;
+}
+
+#hex {
+  outline: 10px solid azure;
+  /* outline-width: 10px;
+  outline-style: solid;
+  outline-color: white; */
 }
 
 h2 {
@@ -44,4 +55,8 @@ p {
   padding-left: 15px;
 
   height: 100px;
+}
+
+img {
+  border-radius: 50%;
 }
