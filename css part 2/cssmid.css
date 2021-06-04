@@ -26,6 +26,30 @@ h3 {
   text-shadow: 2px 2px 3px blue;
 
   font-size: 25px;
+
+  position: relative;
+  left: 50px;
+  /* top: 20px; */
+}
+
+.posfix {
+  width: 200px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+.posabs {
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.posstik {
+  width: 200px;
+  position: sticky;
+  top: 10px;
 }
 
 p {
@@ -40,6 +64,10 @@ p {
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", "sans-serif";
+
+  border: 1px solid black;
+  /* display: inline-block; */
+  /* overflow: auto; */
 }
 
 .secondPara {
@@ -51,6 +79,7 @@ p {
 a {
   color: hotpink;
   text-decoration: none;
+  /* display: block; */
 }
 a:hover {
   text-decoration: underline;
@@ -75,4 +104,27 @@ a:hover {
 
   border: none;
   box-shadow: 0 5px grey;
+}
+
+ul {
+  /* unordered list */
+  list-style-type: circle;
+  /* list-style-image: url(../images/moon.jpg); */
+  border: 1px solid red;
+  list-style-position: inside;
+}
+ul li {
+  border: 1px solid black;
+}
+
+ol {
+  /* display: none; */
+  /* ordered list */
+  list-style-type: lower-alpha;
+  background-color: #3399ff;
+  padding: 25px;
+}
+ol li {
+  background-color: #cce5ff;
+  margin: 5px 0;
 }

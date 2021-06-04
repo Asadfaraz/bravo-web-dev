@@ -1,0 +1,11 @@
+img {
+  width: 200px;
+
+  float: left;
+}
+div {
+  background-color: skyblue;
+  padding: 15px;
+  /* clear: right; */
+  overflow: auto;
+}
