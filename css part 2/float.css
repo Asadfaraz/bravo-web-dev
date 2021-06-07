@@ -9,3 +9,7 @@ div {
   /* clear: right; */
   overflow: auto;
 }
+
+.para {
+  font-weight: bold;
+}
